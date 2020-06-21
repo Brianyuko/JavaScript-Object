@@ -20,8 +20,12 @@ designer.hobi = "Koki"
 // Set Object
 programmer.setData('Brian')
 
+// Mutable
+var mahasiswa = programmer;
+mahasiswa.umur = 99;
+
 // Get Object Option One
-document.getElementById('umur').innerHTML = programmer.umur;
+document.getElementById('umur').innerHTML = mahasiswa.umur;
 document.getElementById('hobi').innerHTML = programmer.hobi;
 
 // Get Object Option Two
